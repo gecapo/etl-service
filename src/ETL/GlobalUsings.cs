@@ -1,0 +1,11 @@
+﻿global using AutoMapper;
+global using ETL.Constants;
+global using ETL.Extensions;
+global using ETL.Interfaces;
+global using ETL.Models.Common;
+global using ETL.Models.ReportModels;
+global using ETL.Profiles;
+global using ETL.Services;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Globalization;
+global using System.Text;
