@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL", "src\ETL\ETL.csproj", "{7F5C740A-38F3-4394-BC7B-C12D57CBD14B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.Poco", "src\Etl.Poco\Etl.Poco.csproj", "{7F5C740A-38F3-4394-BC7B-C12D57CBD14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.UnitTests", "tests\Etl.UnitTests\Etl.UnitTests.csproj", "{DA681E16-DBA1-4216-A393-CC37515A063C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.Infrastructure", "src\Etl.Infrastructure\Etl.Infrastructure.csproj", "{C54D7826-21E7-433D-B33B-09F7891CCD0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7F5C740A-38F3-4394-BC7B-C12D57CBD14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F5C740A-38F3-4394-BC7B-C12D57CBD14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F5C740A-38F3-4394-BC7B-C12D57CBD14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA681E16-DBA1-4216-A393-CC37515A063C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA681E16-DBA1-4216-A393-CC37515A063C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA681E16-DBA1-4216-A393-CC37515A063C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA681E16-DBA1-4216-A393-CC37515A063C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54D7826-21E7-433D-B33B-09F7891CCD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54D7826-21E7-433D-B33B-09F7891CCD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54D7826-21E7-433D-B33B-09F7891CCD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54D7826-21E7-433D-B33B-09F7891CCD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

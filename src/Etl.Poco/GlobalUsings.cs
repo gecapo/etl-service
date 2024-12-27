@@ -1,0 +1,11 @@
+﻿global using AutoMapper;
+global using Etl.Poco.Constants;
+global using Etl.Poco.Extensions;
+global using Etl.Poco.Interfaces;
+global using Etl.Poco.Models.Common;
+global using Etl.Poco.Models.ReportModels;
+global using Etl.Poco.Profiles;
+global using Etl.Poco.Services;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Globalization;
+global using System.Text;
